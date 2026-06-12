@@ -856,6 +856,7 @@ function initWabtec(){
     ctx.textAlign='right';ctx.fillText('SIGNAL: GREEN',W-8,14);ctx.textAlign='left';
     t++;requestAnimationFrame(draw);
   }
+  
   function drawTrain(ctx,x,y,dir){
     ctx.save();ctx.translate(x,y);if(dir<0)ctx.scale(-1,1);
     ctx.fillStyle='rgba(0,70,150,0.8)';ctx.fillRect(0,0,58,13);
